@@ -1,0 +1,9 @@
+ros-noetic-tf -y
+ros-noetic-ros-control -y
+ros-noetic-joint-state-publisher -y
+ros-noetic-robot-state-publisher -y
+ros-noetic-laser-scan-matcher -y
+ros-noetic-effort-controllers -y
+ros-noetic-velocity-controllers -y
+ros-noetic-controller-manager -y
+
