@@ -1,0 +1,23 @@
+<launch>
+
+    <node pkg="turtlesim" type="turtlesim_node" name="sim"/>
+    <node pkg="turtlesim" type="turtle_teleop_key" name="teleop" output="screen"/>
+
+    <node name="motion_control" pkg="ros_basics_tutorials" type="motion_control.py" output="screen" />
+    <node name="turtle2_node" pkg="ros_basics_tutorials" type="motion_control_turtle2.py" output="screen" >
+        <remap from="cmd_vel" to="/turtle2/cmd_vel" />
+        <remap from="pose" to="/turtle2/pose" />
+        <remap from="goal" to="/turtle1/pose" />
+    </node>
+    <node name="turtle3_node" pkg="ros_basics_tutorials" type="motion_control_turtle3.py" output="screen" >
+        <remap from="cmd_vel" to="/turtle3/cmd_vel" />
+        <remap from="pose" to="/turtle3/pose" />
+        <remap from="goal" to="/turtle1/pose" />
+    </node>
+    <node name="turtle4_node" pkg="ros_basics_tutorials" type="motion_control_turtle4.py" output="screen" >
+        <remap from="cmd_vel" to="/turtle4/cmd_vel" />
+        <remap from="pose" to="/turtle4/pose" />
+        <remap from="goal" to="/turtle1/pose" />            
+    </node>
+
+</launch>
