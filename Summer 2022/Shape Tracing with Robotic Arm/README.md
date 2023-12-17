@@ -88,4 +88,15 @@ The trajectory for various shapes such as square, rectangle, and ellipse can be 
   <p align="center">
   <image align="centre" src="https://user-images.githubusercontent.com/108993449/197814860-974e0c4e-571a-4105-8171-3eaf3165e893.gif" width ="400" height="400" >
    </p>
+
+ ### Team Member- 
+   - Mayank Lonkar
+   - Pratyush Chakraborty
+   - Ravi Agrawal
+   - Shrikrishna Sawangikar
+
+### Mentor -
+- Malhar Limaye
+- Yash Gaikwad
+- Dheeraj Deevi
   
