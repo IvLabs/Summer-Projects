@@ -30,7 +30,7 @@ For this project we have used D-H paramters and following steps were taken-
 ## Inverse Kinematics
 
 Inverse kinematics is about calculating the angles of joints (i.e. angles of the servo motors on the arm) that will cause the end effector of a manipulator arm to reach some given desired position (x, y, z) in 3D space.
-To do that, we approximated the angles using Newon-Raphson method.
+To do that, we approximated the angles using Newton-Raphson method.
 
 - Used the two equations obtained from Forward kinematics and third equation regarding the orientation of the end effector.
 - Initial guesses were made for theta1, theta2, and theta3.
