@@ -1,0 +1,104 @@
+
+# 2 Degree-Of-Freedom Handheld Gimbal
+
+## Description
+
+This project showcases a two degree-of-freedom gimbal system with independent control over each axis. The primary purpose of this gimbal system is to provide a stable platform for various applications, such as camera stabilization and object tracking. 
+
+## Tech Stack
+
+**Softwares:** Arduino IDE, Python, Autodesk Fusion 360
+
+**Python libraries:** Numpy, Matplotlib, Serial
+
+**Arduino IDE libraries:** Adafruit_MPU6050, Adafruit_Sensor, Wire, Servo
+
+## Components
+
+| Type | Model     | Quantity                |
+| :-------- | :------- | :------------------------- |
+| Microcontroller Development Board | Arduino UNO | 1 |
+| Inertial Measurement Unit (IMU) | MPU-6050 | 1 |
+| Servo Motors | MG996R | 2 |
+
+
+
+## Roadmap
+
+- Cruise Control
+
+- IMU and Servo Simulation
+
+- Polar Plot of IMU-Measured Angles
+
+- Designing the 3-D Model of the Gimbal
+## Cruise Control
+
+**Aim:** Use Python to develop a Cruise Control for a car for a fixed set-point velocity.
+
+The complete problem statement can be viewed [here](https://drive.google.com/file/d/13-e7mE6L7H6tf8J_iWNPkJWwlDUzuDqa/view?usp=sharing).
+
+This task provided insights into the fundamentals of PID control and control systems. It demonstrates how PID parameters impact rise time, overshoot, steady-state error and settling time in our plot.
+
+**Results:**
+
+- Plot of Error over Time
+
+- Plot of Velocity over Time
+
+- Plot of Engine Force over Time
+
+## IMU and Servo Simulation
+
+**Aim:** To simulate an IMU and map the change in angles onto two servos using PID. 
+
+We used [Wokwi](https://wokwi.com/projects/371127545545264129) for simulation.
+
+Here, our goal was to simulate the hardware environment before transitioning to the actual hardware components.
+
+**Results:**
+
+- Smooth changes in servo motor 1 shaft angle in response to IMU-Detected angle variations along the X axis
+
+- Smooth changes in servo motor 2 shaft angle in response to IMU-Detected angle variations along the Y axis
+
+## Polar Plot of IMU-Measured Angles
+
+**Aim:** To create a polar plot in Python using the Matplotlib library, based on angle data obtained from the gyroscope within the IMU.
+
+We learned how to establish serial communication between Arduino IDE and Python to import data from an Arduino. This allowed us to plot the changing angle from the IMU as it moves.
+
+**Results:**
+
+## Designing the 3-D Model of the Gimbal
+
+**Aim:** To create a 3D model of the gimbal with 2 degrees of freedom (DoF).
+
+We created a 3D model of our gimbal using Autodesk Fusion 360. The model included two axes of rotation and a platform where the mobile phone and IMU were mounted.
+
+**Results:**
+
+## Results
+
+- We constructed a temporary metal framework to test the algorithm as shown below:
+
+- Upon deploying our code on the 3-D printed gimbal, we obtained the following results:
+
+## Potential Further Improvements
+
+- Adding a third degree of freedom to the system
+
+- Utilizing OpenCV to achieve stabilization through visual parameters
+## Authors
+
+- [Aiden Ross D'souza](https://github.com/Aiden-Ross-Dsouza) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aiden-dsouza/)
+- [Shubham Pandere](https://github.com/ShubhamPandere) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-pandere-72b240259/)
+- [Premansu Pradhan](https://github.com/premansupradhan)[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/premansu-pradhan-82956425b/)
+- [Manthan Gala](https://github.com/manthan451)[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manthan-gala/)
+- [Asmit Panigrahi](https://github.com/Hack-asmit)[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asmit-panigrahi-6242b9278/)
+- [Prathamesh Lakhotiya](https://github.com/DarkDestr0yer32)[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prathamesh-lakhotiya-925824258/)
+
+## Mentors
+
+- [Kishore P Chandra](https://github.com/k1sh0re) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/k1sh0re)
+- [Pratyush Chakraborty](https://github.com/Pratyush-Chakraborty) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pratyush-chakraborty-42b8a7236/)
