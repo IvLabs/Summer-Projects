@@ -20,9 +20,9 @@ def error(u, v):
 # PID Controller function
 def PID(e):  # In time interval dt = 0.1s
     global count
-    a = 4 #4
-    c = 500 #2
-    d = 0.01 #0.024
+    a = 4
+    c = 500
+    d = 0.01
     # a = Kp = 4, c = Kd/0.1, d = Ki*(0.1/2) #Trapezoid method of integration
     f.append(a * e[-1] + c * abs(e[-1] - e[-2]) + d * ((2 * sum(e)) - e[0] - e[-1]))
     count += 1
