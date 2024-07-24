@@ -93,10 +93,10 @@ We created a 3D model of our gimbal using Autodesk Fusion 360. The model include
 
 - [Aiden Ross D'souza](https://github.com/Aiden-Ross-Dsouza) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aiden-dsouza/)
 - [Shubham Pandere](https://github.com/ShubhamPandere) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-pandere-72b240259/)
-- [Premansu Pradhan](https://github.com/premansupradhan)[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/premansu-pradhan-82956425b/)
-- [Manthan Gala](https://github.com/manthan451)[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manthan-gala/)
-- [Asmit Panigrahi](https://github.com/Hack-asmit)[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asmit-panigrahi-6242b9278/)
-- [Prathamesh Lakhotiya](https://github.com/DarkDestr0yer32)[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prathamesh-lakhotiya-925824258/)
+- [Premansu Pradhan](https://github.com/premansupradhan) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/premansu-pradhan-82956425b/)
+- [Manthan Gala](https://github.com/manthan451) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manthan-gala/)
+- [Asmit Panigrahi](https://github.com/Hack-asmit) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asmit-panigrahi-6242b9278/)
+- [Prathamesh Lakhotiya](https://github.com/DarkDestr0yer32) [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prathamesh-lakhotiya-925824258/)
 
 ## Mentors
 
