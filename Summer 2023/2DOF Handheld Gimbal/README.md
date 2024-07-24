@@ -94,6 +94,8 @@ We created a 3D model of our gimbal using Autodesk Fusion 360. The model include
 
 **Results:**
 
+https://github.com/user-attachments/assets/642365b4-85d7-40be-a47b-739ac4d9a51d
+
 ## Results
 
 - We constructed a temporary metal framework to test the algorithm as shown below:
