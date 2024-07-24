@@ -44,9 +44,15 @@ This task provided insights into the fundamentals of PID control and control sys
 
 - Plot of Error over Time
 
+![Screenshot 2024-07-24 204700](https://github.com/user-attachments/assets/232a67cc-e4cc-4add-95c1-4c580af4cf7e)
+
 - Plot of Velocity over Time
 
+![Screenshot 2024-07-24 204731](https://github.com/user-attachments/assets/9058d86e-a4b1-464f-bf6f-a54deb344570)
+
 - Plot of Engine Force over Time
+
+![Screenshot 2024-07-24 204717](https://github.com/user-attachments/assets/414367e9-6fc8-4e29-b569-1fe680e0a6dc)
 
 ## IMU and Servo Simulation
 
@@ -61,6 +67,8 @@ Here, our goal was to simulate the hardware environment before transitioning to 
 - Smooth changes in servo motor 1 shaft angle in response to IMU-Detected angle variations along the X axis
 
 - Smooth changes in servo motor 2 shaft angle in response to IMU-Detected angle variations along the Y axis
+
+https://github.com/user-attachments/assets/1a073bbd-720a-4a35-8dfc-b19c606130b2
 
 ## Polar Plot of IMU-Measured Angles
 
