@@ -78,6 +78,14 @@ We learned how to establish serial communication between Arduino IDE and Python 
 
 **Results:**
 
+- Serial communication between Arduino IDE and Python without acquiring data from the IMU
+
+https://github.com/user-attachments/assets/d157aaee-4eb1-4400-be2c-ea73b0982c2f
+
+- Serial communication between Arduino IDE and Python with acquisition of data from the IMU
+
+https://github.com/user-attachments/assets/17194a0c-a8ce-4f74-ab2a-49c1b4627774
+
 ## Designing the 3-D Model of the Gimbal
 
 **Aim:** To create a 3D model of the gimbal with 2 degrees of freedom (DoF).
@@ -90,7 +98,11 @@ We created a 3D model of our gimbal using Autodesk Fusion 360. The model include
 
 - We constructed a temporary metal framework to test the algorithm as shown below:
 
+https://github.com/user-attachments/assets/c9a20e7a-f702-4368-ab20-9f0f2d926df7
+
 - Upon deploying our code on the 3-D printed gimbal, we obtained the following results:
+
+https://github.com/user-attachments/assets/96b0cb0c-0665-41ef-9e15-122bdcddc965
 
 ## Potential Further Improvements
 
