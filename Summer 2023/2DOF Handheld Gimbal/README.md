@@ -100,7 +100,7 @@ https://github.com/user-attachments/assets/642365b4-85d7-40be-a47b-739ac4d9a51d
 
 ## Results
 
-- We constructed a temporary metal framework to test the algorithm as shown below:
+- We constructed a prototype using a metal framework to test the algorithm as shown below:
 
 https://github.com/user-attachments/assets/c9a20e7a-f702-4368-ab20-9f0f2d926df7
 
