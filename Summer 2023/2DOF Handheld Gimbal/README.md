@@ -3,7 +3,9 @@
 
 ## Description
 
-This project showcases a two degree-of-freedom gimbal system with independent control over each axis. The primary purpose of this gimbal system is to provide a stable platform for various applications, such as camera stabilization and object tracking. 
+This project showcases a two degree-of-freedom gimbal system with independent control over each axis. The primary purpose of this gimbal system is to provide a stable platform for various applications, such as camera stabilization. 
+
+![Gimbal](https://github.com/user-attachments/assets/10fecac1-9516-43e6-a66e-f77ad13e4df2)
 
 ## Tech Stack
 
@@ -25,13 +27,13 @@ This project showcases a two degree-of-freedom gimbal system with independent co
 
 ## Roadmap
 
-- Cruise Control
+- [Cruise Control](#cruise-control)
 
-- IMU and Servo Simulation
+- [IMU and Servo Simulation](imu-and-servo-simulation)
 
-- Polar Plot of IMU-Measured Angles
+- [Polar Plot of IMU-Measured Angles](polar-plot-of-imu-measured-angles)
 
-- Designing the 3-D Model of the Gimbal
+- [Designing the 3-D Model of the Gimbal](designing-the-3-D-model-of-the-gimbal)
 ## Cruise Control
 
 **Aim:** Use Python to develop a Cruise Control for a car for a fixed set-point velocity.
@@ -44,15 +46,15 @@ This task provided insights into the fundamentals of PID control and control sys
 
 - Plot of Error over Time
 
-![Screenshot 2024-07-24 204700](https://github.com/user-attachments/assets/232a67cc-e4cc-4add-95c1-4c580af4cf7e)
+![Error](https://github.com/user-attachments/assets/6d21b559-be45-4b01-a497-3096752444d0)
 
 - Plot of Velocity over Time
 
-![Screenshot 2024-07-24 204731](https://github.com/user-attachments/assets/9058d86e-a4b1-464f-bf6f-a54deb344570)
+![Velocity](https://github.com/user-attachments/assets/af51075d-1a6b-4f99-903e-70c51cffdb1b)
 
 - Plot of Engine Force over Time
 
-![Screenshot 2024-07-24 204717](https://github.com/user-attachments/assets/414367e9-6fc8-4e29-b569-1fe680e0a6dc)
+![Engine force](https://github.com/user-attachments/assets/2d4b9411-4359-4592-85a2-35c185c9e426)
 
 ## IMU and Servo Simulation
 
