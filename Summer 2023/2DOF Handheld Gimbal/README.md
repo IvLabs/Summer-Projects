@@ -29,11 +29,11 @@ This project showcases a two degree-of-freedom gimbal system with independent co
 
 - [Cruise Control](#cruise-control)
 
-- [IMU and Servo Simulation](imu-and-servo-simulation)
+- [IMU and Servo Simulation](#imu-and-servo-simulation)
 
-- [Polar Plot of IMU-Measured Angles](polar-plot-of-imu-measured-angles)
+- [Polar Plot of IMU-Measured Angles](#polar-plot-of-imu-measured-angles)
 
-- [Designing the 3-D Model of the Gimbal](designing-the-3-D-model-of-the-gimbal)
+- [Designing the 3-D Model of the Gimbal](#designing-the-3-D-model-of-the-gimbal)
 ## Cruise Control
 
 **Aim:** Use Python to develop a Cruise Control for a car for a fixed set-point velocity.
