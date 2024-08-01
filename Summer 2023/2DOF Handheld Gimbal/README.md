@@ -33,7 +33,8 @@ This project showcases a two degree-of-freedom gimbal system with independent co
 
 - [Polar Plot of IMU-Measured Angles](#polar-plot-of-imu-measured-angles)
 
-- [Designing the 3-D Model of the Gimbal](#designing-the-3-D-model-of-the-gimbal)
+- [Designing the 3-D Model of the Gimbal](#designing-the-3-d-model-of-the-gimbal)
+
 ## Cruise Control
 
 **Aim:** Use Python to develop a Cruise Control for a car for a fixed set-point velocity.
@@ -46,15 +47,15 @@ This task provided insights into the fundamentals of PID control and control sys
 
 - Plot of Error over Time
 
-![Error](https://github.com/user-attachments/assets/6d21b559-be45-4b01-a497-3096752444d0)
+<img src="https://github.com/user-attachments/assets/6d21b559-be45-4b01-a497-3096752444d0" alt="Error" width="500"/>
 
 - Plot of Velocity over Time
 
-![Velocity](https://github.com/user-attachments/assets/af51075d-1a6b-4f99-903e-70c51cffdb1b)
+<img src="https://github.com/user-attachments/assets/af51075d-1a6b-4f99-903e-70c51cffdb1b" alt="Velocity" width="500"/>
 
 - Plot of Engine Force over Time
 
-![Engine force](https://github.com/user-attachments/assets/2d4b9411-4359-4592-85a2-35c185c9e426)
+<img src="https://github.com/user-attachments/assets/2d4b9411-4359-4592-85a2-35c185c9e426" alt="Engine force" width="500"/>
 
 ## IMU and Servo Simulation
 
