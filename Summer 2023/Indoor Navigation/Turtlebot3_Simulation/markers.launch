@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- turtlebot pose -->
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x_pos" default="0.0"/>
+  <arg name="y_pos" default="0.0"/>
+  <arg name="z_pos" default="0.0"/>
+
+  <param name="robot_description" command="$(find xacro)/xacro $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+  <!-- Marker1 -->
+  <arg name="sdf1" default="$(find test_robot_controller)/models/marker1/model.sdf"/>
+  <arg name="x1" default="3"/>
+  <arg name="y1" default="3"/>
+  <arg name="z1" default="0"/>
+  <arg name="R1" default="0"/>
+  <arg name="P1" default="0"/>
+  <arg name="Y1" default="0.785"/>
+
+  <!-- Marker2 -->
+  <arg name="sdf2" default="$(find test_robot_controller)/models/marker2/model.sdf"/>
+  <arg name="x2" default="3"/>
+  <arg name="y2" default="-3"/>
+  <arg name="z2" default="0"/>
+  <arg name="R2" default="0"/>
+  <arg name="P2" default="0"/>
+  <arg name="Y2" default="-1.57"/>
+
+  <!-- Marker3 -->
+  <arg name="sdf3" default="$(find test_robot_controller)/models/marker3/model.sdf"/>
+  <arg name="x3" default="5"/>
+  <arg name="y3" default="5"/>
+  <arg name="z3" default="0"/>
+  <arg name="R3" default="0"/>
+  <arg name="P3" default="0"/>
+  <arg name="Y3" default="0.785"/>
+
+  <!-- Marker4 -->
+  <arg name="sdf4" default="$(find test_robot_controller)/models/marker4/model.sdf"/>
+  <arg name="x4" default="8"/>
+  <arg name="y4" default="-3"/>
+  <arg name="z4" default="0"/>
+  <arg name="R4" default="0"/>
+  <arg name="P4" default="0"/>
+  <arg name="Y4" default="-1.57"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+
+
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
+  <node name="spawn_marker1" pkg="gazebo_ros" type="spawn_model" output="screen" args="-sdf -file $(arg sdf1) -model Marker1 -x $(arg x1) -y $(arg y1) -z $(arg z1) -R $(arg R1) -P $(arg P1) -Y $(arg Y1)"/>
+  <node name="spawn_marker2" pkg="gazebo_ros" type="spawn_model" output="screen" args="-sdf -file $(arg sdf2) -model Marker2 -x $(arg x2) -y $(arg y2) -z $(arg z2) -R $(arg R2) -P $(arg P2) -Y $(arg Y2)"/>
+  <node name="spawn_marker3" pkg="gazebo_ros" type="spawn_model" output="screen" args="-sdf -file $(arg sdf3) -model Marker3 -x $(arg x3) -y $(arg y3) -z $(arg z3) -R $(arg R3) -P $(arg P3) -Y $(arg Y3)"/>
+  <node name="spawn_marker4" pkg="gazebo_ros" type="spawn_model" output="screen" args="-sdf -file $(arg sdf4) -model Marker4 -x $(arg x4) -y $(arg y4) -z $(arg z4) -R $(arg R4) -P $(arg P4) -Y $(arg Y4)"/>
+</launch>
