@@ -27,7 +27,7 @@ Our goal is to develop an advanced drone capable of autonomous flight, seamlessl
 Implement wireless communication protocols to transmit precise gesture-based commands from a Ground Control Station (GCS) to the drone.
 
 ## **Gesture Recognisation** 
-![Gestures Recognisation](./thumbnails/index.png)
+![Gestures Recognisation]([./thumbnails/index.png](https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/thumbnails/index.png))
 
 - Gesture recogntion is done using training a ML model on a dataset containing labelled distances between all possible pair of hand landmarks
 - The loading hand landmarks and extraction of their x,y,z coordinates are done using mediapipe library
@@ -52,7 +52,7 @@ Model training
 - While evaluating, the threshold is set as 0.8, so if probability while testing is <0.8 it is treated as 'unknown'
 - Once trained and evaluated, the model in saved in .pkl file format which is the used for prediction
 
-![gestures](./thumbnails/gestures.png)
+![gestures](https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/thumbnails/gestures.png)
 
 
 
@@ -206,25 +206,25 @@ python3 quad.py
   <tr>
     <td align="center">
       <h4>Forward</h4>
-      <img src="media/forward.gif" alt="Forward Gesture" width="100%">
+      <img src="https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/media/forward.gif" alt="Forward Gesture" width="100%">
     </td>
     <td align="center">
       <h4>Backward</h4>
-      <img src="media/backward.gif" alt="Backward Gesture" width="100%">
+      <img src="https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/media/backward.gif" alt="Backward Gesture" width="100%">
     </td>
     <td align="center">
       <h4>Left</h4>
-      <img src="media/left.gif" alt="Left Turn Gesture" width="100%">
+      <img src="https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/media/left.gif" alt="Left Turn Gesture" width="100%">
     </td>
   </tr>
   <tr>
     <td align="center">
       <h4>Right</h4>
-      <img src="media/right.gif" alt="Right Turn Gesture" width="100%">
+      <img src="https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/media/right.gif" alt="Right Turn Gesture" width="100%">
     </td>
     <td align="center">
       <h4>LAND</h4>
-      <img src="media/land.gif" alt="Land Gesture" width="100%">
+      <img src="https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/media/land.gif" alt="Land Gesture" width="100%">
     </td>
     <td width="33%">
       </td>
