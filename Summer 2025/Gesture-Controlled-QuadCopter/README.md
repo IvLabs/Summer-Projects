@@ -57,7 +57,7 @@ Model training
 
 
 ## **Command Maping and Forwarding**
-![commands](./thumbnails/command.png)
+![commands](https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/thumbnails/command.png)
 - Our final script has 2 parts 
     1. Drone command excecution code / Connection code
     2. Gesture recognition code
