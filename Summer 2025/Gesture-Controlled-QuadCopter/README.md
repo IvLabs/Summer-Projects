@@ -27,7 +27,7 @@ Our goal is to develop an advanced drone capable of autonomous flight, seamlessl
 Implement wireless communication protocols to transmit precise gesture-based commands from a Ground Control Station (GCS) to the drone.
 
 ## **Gesture Recognisation** 
-![Gestures Recognisation]([./thumbnails/index.png](https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/thumbnails/index.png))
+![Gestures Recognisation](https://github.com/aman-59/Gesture-Controlled-Quadcopter/blob/main/thumbnails/index.png)
 
 - Gesture recogntion is done using training a ML model on a dataset containing labelled distances between all possible pair of hand landmarks
 - The loading hand landmarks and extraction of their x,y,z coordinates are done using mediapipe library
